@@ -1,3 +1,4 @@
+package abyat;
 
 import java.util.*;
 
@@ -44,7 +45,6 @@ public class Curve2 {
 				maxIndexj = j;
 			}
 		}
-		System.out.println(maxIndex + "max" + max);
 
 		incrCurv[maxIndex].remove(incrCurv[maxIndex].size() - 1);
 		Collections.reverse(decrCurv[maxIndexj]);

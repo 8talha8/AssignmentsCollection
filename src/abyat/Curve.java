@@ -1,3 +1,4 @@
+package abyat;
 import java.util.*;
 
 public class Curve {
